@@ -3,6 +3,3 @@ compile:
 
 run:
 	./bin/main
-
-clean:
-	rm ./bin/main

@@ -35,7 +35,7 @@ void account_print(struct Account *self) {
 }
 
 int main(void) {
-  struct Account *admin = account_create("admin1", "SOMEPASSWORD_123");
+  struct Account *admin = account_create("admin2", "SOMEPASSWORD_123");
   account_print(admin);
   account_destroy(admin);
 }
